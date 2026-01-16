@@ -1,4 +1,4 @@
-# Oh My Posh – Tonybaloney (Personal Version)
+# Oh My Posh AquaPosh – (Tonybaloney)
 
 This is my personal version of the **tonybaloney** theme for **oh-my-posh**.
 

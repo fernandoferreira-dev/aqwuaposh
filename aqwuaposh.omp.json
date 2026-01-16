@@ -12,7 +12,7 @@
             "style": "folder"
           },
           "style": "diamond",
-          "template": " \ue5ff {{ .Path }} ",
+          "template": " {{ .Path }} ",
           "trailing_diamond": "\ue0b0",
           "type": "path"
         },
@@ -20,11 +20,9 @@
           "background": "#1c4d23",
           "foreground": "#56bed1",
           "powerline_symbol": "\ue0b0",
-          "options": {
-            "fetch_upstream_icon": true
-          },
+          "options": {},
           "style": "powerline",
-          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
+          "template": " {{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "type": "git"
         },
         {
@@ -48,5 +46,5 @@
     }
   ],
   "final_space": true,
-  "version": 1
+  "version": 2
 }

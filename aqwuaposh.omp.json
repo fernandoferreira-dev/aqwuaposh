@@ -5,8 +5,8 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#18354c",
-          "foreground": "#ffc107",
+          "background": "#ffa1f6",
+          "foreground": "#563869",
           "leading_diamond": "\ue0b6",
           "options": {
             "style": "folder"
@@ -17,10 +17,14 @@
           "type": "path"
         },
         {
-          "background": "#1c4d23",
-          "foreground": "#56bed1",
+          "background": "#fb9d59",
+          "foreground": "#343434",
           "powerline_symbol": "\ue0b0",
-          "options": {},
+          "options": {
+            "branch_icon": "",
+            "fetch_status": false,
+            "fetch_upstream_icon": true
+          },
           "style": "powerline",
           "template": " {{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "type": "git"
